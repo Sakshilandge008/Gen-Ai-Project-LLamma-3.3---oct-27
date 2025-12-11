@@ -9,7 +9,7 @@ st.set_page_config(page_title='Gen Ai  Project '  , layout= 'wide')
 #  add  title to  page  
 st.title('Gen Ai project Llamma 3.3')
 
-st.subheader('By Varsha Mhetre')
+st.subheader('By sakshi landge')
 
 user_input =  st.text_area('Ask Any Question')
 
