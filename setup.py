@@ -25,7 +25,7 @@ def create_project_structure():
     entry = ".streamlit/"
 
     if os.path.exists(gitignore_path):
-        with open(gitignore_path, "r") as f:
+        with open(/workspaces/Gen-Ai-Project-LLamma-3.3---oct-27/.gitignore, "r") as f:
             lines = [line.strip() for line in f.readlines()]
         if entry not in lines:
             with open(gitignore_path, "a") as f:
@@ -51,7 +51,7 @@ def install_dependencies():
 
 def create_requirements_file():
     """Create a requirements.txt file with dependencies."""
-    with open("requirements.txt", "w") as f:
+    with open("/workspaces/Gen-Ai-Project-LLamma-3.3---oct-27/requirements.txt", "w") as f:
         for dep in dependencies:
             f.write(dep + "\n")
     print("✅ requirements.txt created successfully!")
